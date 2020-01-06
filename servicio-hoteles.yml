@@ -5,7 +5,7 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://172.10.4.222:3306/viajes
+    url: jdbc:mysql://localhost/viajes
     username: root
     password: root
   jpa:
@@ -19,4 +19,4 @@ eureka:
   client:
     serviceUrl:
       # Direccion a la que se conecta el microservicio con eureka
-      defaultZone: http://172.10.2.96:8761/eureka
+      defaultZone: http://localhost/eureka
